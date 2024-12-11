@@ -1,0 +1,21 @@
+@import url('variables.css');
+@import url('sidebar.css');
+
+
+body {
+    background-color: var(--background-color);
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.pi-align-left {
+    color: var(--white);
+    font-size: 2.5rem;
+}
+
+.pi-search {
+    color: var(--black);
+    font-size: 1rem;
+}
