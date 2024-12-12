@@ -1,0 +1,23 @@
+@import url('variables.css');
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0.5rem 0.5rem 0rem auto;
+    padding: 0px 20px;
+
+    border-bottom: 1px solid var(--grey);
+}
+.nav-container-list {
+    display: flex;
+    gap: 1.5rem;
+    
+
+    li {
+        list-style: none;
+        gap: 1rem;
+        color: var(--grey);
+        
+    }
+}

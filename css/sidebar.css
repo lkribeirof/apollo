@@ -2,11 +2,11 @@
 
 .sidebar {
     position: fixed;
-    top: 13.5%;
     left: -40%; 
     height: 100%;
     width: 40%; 
     background-color: var(--background-color);
+    border-right: 1px solid var(--black);
     color: var(--white);
     transition: left 0.3s ease;
     z-index: 1050; 
